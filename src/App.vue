@@ -1,17 +1,20 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <!-- <HelloWorld msg="Hello Vue 3 + Vite" /> -->
+  <Composition></Composition>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
+import Composition from './examples/Composition.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
-  }
+    // HelloWorld,
+    Composition,
+  },
 })
 </script>
 
