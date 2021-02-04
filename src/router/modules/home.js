@@ -1,5 +1,5 @@
 import { defineAsyncComponent } from "vue";
-import Layout from "@/layout";
+import Layout from "@/layout/index.vue";
 export default {
   name: 'home',
   path: '/',

@@ -3,6 +3,7 @@
   <h1>Composition API</h1>
   <Composition></Composition>
   <NewComponents></NewComponents>
+  <Test></Test>
 </template>
 
 <script lang="ts">
@@ -10,12 +11,13 @@ import { defineComponent } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
 import Composition from './examples/Composition.vue'
 import NewComponents from './examples/new-components/index.vue'
-
+import Test from '@/layout/Test.vue'
 export default defineComponent({
   name: 'App',
   components: {
     Composition,
     NewComponents,
+    Test
   },
 })
 </script>
